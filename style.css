@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1, p{
+    text-align: center;
+}
+p{
+    font-size: 17px;
+}
+
+input, textarea{
+    display: block;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    
+}
+.Kashi{
+  width: 100%;
+  position: absolute; 
+  z-index: -5;
+  opacity: 0.8; 
+}
+.submitMsg{
+    font-size: 18px;
+    color: brown;
+
+}
